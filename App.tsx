@@ -14,7 +14,7 @@ const JSStack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      {/* <NativeStack.Navigator initialRouteName={'1'}>
+      <NativeStack.Navigator initialRouteName={'1'}>
         <NativeStack.Group screenOptions={{ headerBackTitleVisible: false }}>
           <NativeStack.Screen name='1' component={ScreenOne} />
           <NativeStack.Screen name='2' component={ScreenTwo} />
@@ -29,8 +29,8 @@ export default function App() {
             })}
           />
         </NativeStack.Group>
-      </NativeStack.Navigator> */}
-      <JSStack.Navigator initialRouteName={'1'}>
+      </NativeStack.Navigator>
+      {/* <JSStack.Navigator initialRouteName={'1'}>
         <JSStack.Group screenOptions={{ headerBackTitleVisible: false }}>
           <JSStack.Screen name='1' component={ScreenOne} />
           <JSStack.Screen name='2' component={ScreenTwo} />
@@ -45,7 +45,7 @@ export default function App() {
             })}
           />
         </JSStack.Group>
-      </JSStack.Navigator>
+      </JSStack.Navigator> */}
     </NavigationContainer>
   );
 }
